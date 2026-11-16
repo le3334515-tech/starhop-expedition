@@ -23,15 +23,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Merge real completed runs into the permanent top ten
+      - name: Merge completed runs and shared profile edits
         run: node scripts/archive-leaderboard.mjs
       - name: Save changed leaderboard data
         shell: bash
         run: |
-          git add leaderboard/v2.json
-          if test -f leaderboard/cursor.json; then git add leaderboard/cursor.json; fi
+          git add leaderboard/*.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "starhop-leaderboard[bot]"
           git config user.email "starhop-leaderboard[bot]@users.noreply.github.com"
-          git commit -m "Archive real leaderboard results"
+          git commit -m "Archive real leaderboard results and names"
           git push origin HEAD:main

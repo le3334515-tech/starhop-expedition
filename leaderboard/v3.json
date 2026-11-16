@@ -1,0 +1,99 @@
+{
+  "version": "starhop-v3",
+  "updatedAt": "2026-11-16T12:51:41.897Z",
+  "records": [],
+  "legacyRecords": [
+    {
+      "version": "starhop-v2",
+      "runId": "run_vsurkj_1gg4gh3",
+      "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
+      "name": "星际旅人",
+      "createdAt": "2026-11-16T12:13:13.510Z",
+      "result": {
+        "seed": 3209865803,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 54.87,
+        "score": 16811,
+        "coins": 170,
+        "kills": 16,
+        "level": 5,
+        "deaths": 0,
+        "roomsCleared": 4,
+        "maxCombo": 7,
+        "overdriveCount": 1,
+        "upgrades": [
+          "multishot",
+          "magnet",
+          "tempo",
+          "shield"
+        ],
+        "synergies": [
+          "fireflies"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v2",
+      "runId": "run_yh5lrc_efvyde",
+      "playerId": "player_0edb7d3829f84d2d95ce95b7da3276d2",
+      "name": "星际旅人",
+      "createdAt": "2026-11-16T12:13:28.421Z",
+      "result": {
+        "seed": 3209865803,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 119.33,
+        "score": 15820,
+        "coins": 151,
+        "kills": 16,
+        "level": 5,
+        "deaths": 0,
+        "roomsCleared": 4,
+        "maxCombo": 3,
+        "overdriveCount": 0,
+        "upgrades": [
+          "multishot",
+          "vigor",
+          "edge",
+          "shield"
+        ],
+        "synergies": [
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v2",
+      "runId": "run_o2ntk_1s20xxi",
+      "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
+      "name": "星际旅人",
+      "createdAt": "2026-11-16T12:14:08.490Z",
+      "result": {
+        "seed": 3209865803,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 172.37,
+        "score": 15971,
+        "coins": 174,
+        "kills": 16,
+        "level": 5,
+        "deaths": 0,
+        "roomsCleared": 4,
+        "maxCombo": 3,
+        "overdriveCount": 0,
+        "upgrades": [
+          "multishot",
+          "vigor",
+          "tempo",
+          "multishot"
+        ],
+        "synergies": []
+      }
+    }
+  ],
+  "profiles": []
+}
