@@ -1,6 +1,6 @@
 # 星跃远征 · STARHOP
 
-[立即游玩 / Play now](https://le3334515-tech.github.io/starhop-expedition/?v=3)
+[立即游玩 / Play now](https://le3334515-tech.github.io/starhop-expedition/?v=4)
 
 原创东方科幻横版动作肉鸽：八幕远征、三武器、强化羁绊、星陨觉醒、三连重斩与三阶段 Boss。
 雾竹山门、朱灯旧街、回风栈道、沉钟地宫、琉璃水庭、丹炉机坊、天仪中枢、余烬神殿，各有独立地形与背景。
@@ -10,4 +10,6 @@
 保存昵称会同步更新已有新旧榜纪录，不改变用时与名次。新纪录和昵称通过实时消息同步，GitHub Actions 每小时归档历史成绩与昵称。榜单没有预填演示成绩。
 
 本仓库托管可直接运行的静态游戏和归档脚本，无需安装或登录。
-所有图像由游戏代码绘制，音乐与音效由 Web Audio 合成，AI 辅助制作。
+v4使用来自itch.io的真实像素素材：LuizMelo的武者、魔物与Evil Wizard 2；Anokolisa森林；ansimuz海崖与古镇；Szadi art.城堡；Pimen斩击与命中特效。八幕进行视差编排、调色、地形与动画整合，游戏内附素材鸣谢。
+
+完整作者、来源、许可和修改说明见 [ART-CREDITS.md](ART-CREDITS.md)。Pimen特效按CC BY 4.0署名；其余素材按各自CC0或作者许可使用。音乐与音效由Web Audio合成，策划程序与素材整合使用AI辅助制作。

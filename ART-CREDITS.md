@@ -1,0 +1,44 @@
+# 美术素材来源与许可
+
+核对与下载日期：2026-11-16。本次更新使用下列作者发布的真实像素素材。网页素材地址和引入后的 PNG 位于 `src/assets/art/`；下载页、原始压缩包及许可核对记录保存在本地 `output/asset-sources/`，不将完整素材库随游戏发布。
+
+## 实际引入
+
+| 用途 | 素材与作者 | 来源 | 许可与核对依据 | 本项目处理 |
+| --- | --- | --- | --- | --- |
+| 主角待机、跑动、跳跃、三连击、受击、死亡动画 | Martial Hero — LuizMelo | <https://luizmelo.itch.io/martial-hero> | CC0；原包 `License.txt` | 裁帧、缩放、镜像、统一文件名，运行时状态动画 |
+| 蘑菇、飞眼、骷髅敌人动画 | Monsters Creatures Fantasy — LuizMelo | <https://luizmelo.itch.io/monsters-creatures-fantasy> | CC0；发布页 License Details | 裁帧、缩放、镜像、受击提亮 |
+| 最终 Boss 动画 | Evil Wizard 2 — LuizMelo | <https://luizmelo.itch.io/evil-wizard-2> | CC0；原包 `License.txt` | 裁帧、缩放、镜像、阶段色调与光环 |
+| 森林与树木、岩石、地块 | Legacy Fantasy - High Forest 2.3 — Anokolisa | <https://anokolisa.itch.io/sidescroller-pixelart-sprites-asset-pack-forest-16x16> | 作者自定义许可；允许商用与修改，禁止作为独立素材成品售卖；已下载 `terms.pdf` / `terms.txt` | 裁切、调色、背景拼接、视差、平台贴图 |
+| 海崖、云层、浮岛与地块 | Magic Cliffs — ansimuz | <https://ansimuz.itch.io/magic-cliffs-environment> | CC0；发布页与原包 `public-license.pdf` | 裁切、调色、背景拼接、视差、平台贴图 |
+| 古镇建筑、街灯、木桶与木箱 | Gothicvania Town — ansimuz | <https://ansimuz.itch.io/gothicvania-town> | 图像 CC0；发布页与原包 `public-license.pdf` | 裁切、调色、背景拼接、视差、平台贴图；未引入音乐 |
+| 城堡、地牢、火把与水晶 | Pixel Platformer Castle — Szadi art. | <https://szadiart.itch.io/pixel-platformer-castle> | 作者发布页明确允许个人及商业项目使用，未要求强制署名 | 裁切、调色、背景拼接、视差、平台贴图 |
+| 命中火花、重斩命中与破防特效 | Battle Effects — pimen | <https://pimen.itch.io/pixel-battle-effects> | **CC BY 4.0，需要署名**；发布页直接链接许可 | 帧图从纵向改为横向、去除空白帧、调为旧金与象牙白；文件 `effects/impact-*.png` |
+| 三连击刀光 | Cutting and Healing — pimen | <https://pimen.itch.io/cutting-and-healing> | **CC BY 4.0，需要署名**；发布页直接链接许可 | 帧图从纵向改为横向、去除末尾空白帧、分别调为象牙白／玉绿／朱红；文件 `effects/slash-*.png` |
+
+CC0 许可说明：<https://creativecommons.org/publicdomain/zero/1.0/>。
+
+CC BY 4.0 许可说明：<https://creativecommons.org/licenses/by/4.0/>。
+
+Anokolisa 原始条款链接：<https://drive.google.com/file/d/17y1gjuwVirE8V79WcTL9tgTUtMu6R1je/view>。条款对包含萨克斯独奏的作品另有鸣谢要求；当前游戏未使用该类内容。
+
+上述许可中可选的作者鸣谢也一并保留。Gothicvania Town 中音乐作者为 Pascal Belisle，音乐的说明独立于图像许可；本次未使用其音乐。
+
+## 游戏内可使用的鸣谢文案
+
+角色与怪物动画：LuizMelo（Martial Hero、Monsters Creatures Fantasy、Evil Wizard 2），CC0。
+
+场景美术：Anokolisa（Legacy Fantasy - High Forest），ansimuz（Magic Cliffs、Gothicvania Town），Szadi art.（Pixel Platformer Castle）。场景进行了裁切、调色和重组。
+
+斩击与命中特效：pimen（[Battle Effects](https://pimen.itch.io/pixel-battle-effects)、[Cutting and Healing](https://pimen.itch.io/cutting-and-healing)），[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。本项目进行了调色、帧图重排与空白帧裁除。
+
+## 检查过但未引入
+
+- **RPG Maker 下载页**：<https://www.rpgmakerweb.com/downloads>。页面主要提供引擎试用、RTP、示例游戏以及 RPG Maker 扩展包。当前项目是独立 Web Canvas 横版游戏；没有取得适用于该引擎的通用素材授权，因此本次没有引入该站资源。RTP 页面许可原文为：“ENTERBRAIN grants to Licensee a non-exclusive, non-assignable, fee-free license to use the RTP SOFTWARE only for the purpose to play the game created and distributed by RPG MAKER VX Ace users who shall complete the registration procedure.” 证据保存在 `output/asset-sources/rpg-downloads/page.html`、`page.txt` 和 `source.json`。
+- **Fire Spell Effect 01 — pimen**：<https://pimen.itch.io/fire-spell>。已下载核对，作者允许个人／商业项目使用与修改，禁止转售或重新分发独立精灵素材。未复制到 `src/assets/art/`，本次游戏没有引入。
+- **NYKNCK 特效页面**：<https://nyknck.itch.io/>。检查了传送门、攻击特效页面，所选条目需付费；本次未购买或引入。
+- **Fantasy Troll、Ghost Warrior 4、Bringer of Death 等候选角色**：不在最终引入清单内，没有复制进游戏目录。
+
+## 本地来源记录
+
+每个已下载包对应目录内的 `source.json` 记录作者、网页地址、许可说明、下载方式与证据。效果帧表另外保存在 `output/asset-sources/pimen-ready/manifest.json`；该目录含准备阶段的额外效果，实际发布内容以本文件“实际引入”表和 `src/assets/art/` 为准。
