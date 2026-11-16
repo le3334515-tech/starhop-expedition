@@ -1,7 +1,78 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-16T12:51:41.897Z",
-  "records": [],
+  "updatedAt": "2026-11-16T22:16:15.682Z",
+  "records": [
+    {
+      "version": "starhop-v3",
+      "runId": "run_old1uz_1icra7z",
+      "playerId": "player_0edb7d3829f84d2d95ce95b7da3276d2",
+      "name": "星际旅人",
+      "createdAt": "2026-11-16T14:08:11.157Z",
+      "result": {
+        "seed": 3209865803,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 104.75,
+        "score": 31462,
+        "coins": 428,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 7,
+        "overdriveCount": 0,
+        "upgrades": [
+          "multishot",
+          "magnet",
+          "edge",
+          "multishot",
+          "multishot",
+          "magnet",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing",
+          "fireflies"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_12hw5bh_19yin09",
+      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
+      "name": "lee",
+      "createdAt": "2026-11-16T13:48:25.013Z",
+      "result": {
+        "seed": 3209865803,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 135.73,
+        "score": 31264,
+        "coins": 430,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 10,
+        "overdriveCount": 1,
+        "upgrades": [
+          "multishot",
+          "magnet",
+          "tempo",
+          "shield",
+          "multishot",
+          "vigor",
+          "multishot"
+        ],
+        "synergies": [
+          "fireflies",
+          "guardian"
+        ]
+      }
+    }
+  ],
   "legacyRecords": [
     {
       "version": "starhop-v2",
@@ -95,5 +166,20 @@
       }
     }
   ],
-  "profiles": []
+  "profiles": [
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_0f2c2c50ff314f678cebd2dc7205bf86",
+      "name": "SB",
+      "updatedAt": "2026-11-16T17:14:30.954Z"
+    },
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
+      "name": "lee",
+      "updatedAt": "2026-11-16T13:48:40.160Z"
+    }
+  ]
 }
