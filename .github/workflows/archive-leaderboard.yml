@@ -1,0 +1,37 @@
+name: Archive live leaderboard
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Merge real completed runs into the permanent top ten
+        run: node scripts/archive-leaderboard.mjs
+      - name: Save changed leaderboard data
+        shell: bash
+        run: |
+          git add leaderboard/v2.json
+          if test -f leaderboard/cursor.json; then git add leaderboard/cursor.json; fi
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "starhop-leaderboard[bot]"
+          git config user.email "starhop-leaderboard[bot]@users.noreply.github.com"
+          git commit -m "Archive real leaderboard results"
+          git push origin HEAD:main
