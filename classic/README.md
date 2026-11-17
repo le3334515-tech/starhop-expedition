@@ -1,12 +1,18 @@
-# 星跃远征 v4.3
+# 星跃远征 v4.3.1
 
 基于用户提供的《星跃远征 v4.1》制作的改进版，保留像素武侠风格、角色与场景素材、八幕远征和三种武器。
 
-公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.3)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
+公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.3.1)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
 
-下载：[离线版 v4.3](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.3.zip) · [源码 v4.3](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.3.zip)。
+下载：[离线版 v4.3.1](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.3.1.zip) · [源码 v4.3.1](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.3.1.zip)。
 
-## v4.3 改进
+## v4.3.1 修正
+
+- 一段跳维持轻点约 150、长按约 202 逻辑像素；二段跳改为短促补高，满按额外约 75，两跳合计约 277。过早二跳保留原来更强的上升速度，不能三段连跳。
+- 修正天仪中枢远景中的矩形硬边与海面色带，让建筑和水面融入原有景色。
+- 手机格挡、攻击和武器 HUD 避免互相遮挡；放大按键和读取旧布局时也会检查碰撞。
+
+## 核心玩法与强化
 
 - 提高轻点跳跃下限：经典规则下，极短轻点约升高 150、长按约 202 逻辑像素，保留二段跳。
 - 升级界面改为青玉行牒、符印和立绘式三选一，展示每项强化前后的数值。
@@ -66,12 +72,12 @@ npm run package
 
 `dist/` 为网站部署文件；`delivery/星跃远征.html` 为素材内嵌的离线单文件，双击即可游玩。共享成绩查看、同步与提交需要联网，游戏本体不需要联网。
 
-本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.3`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
+本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.3.1`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
 
-v4.3 是当前经典版的平衡与界面更新，沿用 v4.2 的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
+v4.3.1 是当前经典版的手感与画面修正，沿用 v4.2 的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
 
 ## 素材与发布记录
 
 素材继续使用原 v4.1 中 LuizMelo、Anokolisa、ansimuz、Szadi art. 与 Pimen 的作品，详见 [素材来源与许可](docs/素材来源与许可.md)。原作者、许可和游戏内鸣谢保留。
 
-本轮修改范围与验收记录见 [v4.3 发布记录](docs/2026-11-17-v4.3-release.md)；上一轮交付保留在 [v4.2 发布记录](docs/2026-11-17-v4.2-release.md)。
+本轮修改范围与验收记录见 [v4.3.1 发布记录](docs/2026-11-17-v4.3.1-release.md)；前两轮保留在 [v4.3 发布记录](docs/2026-11-17-v4.3-release.md) 与 [v4.2 发布记录](docs/2026-11-17-v4.2-release.md)。
