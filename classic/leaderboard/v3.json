@@ -1,7 +1,112 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-17T12:55:36.432Z",
-  "records": [],
+  "updatedAt": "2026-11-17T21:53:33.970Z",
+  "records": [
+    {
+      "version": "starhop-v3",
+      "runId": "run_i45ejy_suhg38",
+      "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
+      "name": "lyf",
+      "createdAt": "2026-11-17T13:42:00.279Z",
+      "result": {
+        "seed": 3193088184,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 107.05,
+        "score": 28219,
+        "coins": 299,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 8,
+        "overdriveCount": 2,
+        "upgrades": [
+          "vigor",
+          "stride",
+          "tempo",
+          "vigor",
+          "stride",
+          "edge",
+          "blood"
+        ],
+        "synergies": [
+          "blazing",
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_oo2owj_15nahmr",
+      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
+      "name": "星际旅人",
+      "createdAt": "2026-11-17T14:29:41.319Z",
+      "result": {
+        "seed": 3193088184,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 206.32,
+        "score": 28949,
+        "coins": 360,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 5,
+        "overdriveCount": 3,
+        "upgrades": [
+          "multishot",
+          "blood",
+          "tempo",
+          "vigor",
+          "stride",
+          "multishot",
+          "vigor"
+        ],
+        "synergies": [
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1vswqfv_9ogxw7",
+      "playerId": "player_459ca1e6aeee4f66a6cc4d51f4e54e15",
+      "name": "星际旅人",
+      "createdAt": "2026-11-17T13:36:25.515Z",
+      "result": {
+        "seed": 3193088184,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 225.1,
+        "score": 28924,
+        "coins": 373,
+        "kills": 35,
+        "level": 8,
+        "deaths": 1,
+        "roomsCleared": 8,
+        "maxCombo": 8,
+        "overdriveCount": 3,
+        "upgrades": [
+          "vigor",
+          "blood",
+          "edge",
+          "tempo",
+          "vigor",
+          "tempo",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing",
+          "guardian"
+        ]
+      }
+    }
+  ],
   "legacyRecords": [],
   "profiles": []
 }
