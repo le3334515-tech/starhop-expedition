@@ -54,8 +54,9 @@ export function installAshenArt(Renderer,engine){
     this.ambient(0,time,0);
   };
   p.platform=function(tile,theme){
-    if(!active()||!textures.has('stone'))return base.platform.call(this,tile,theme);
-    const ctx=this.ctx,isGround=tile.kind==='ground',image=textures.get(tile.kind==='wood'?'timber':isGround?'foundation':'stone');
+    const isGround=tile.kind==='ground',image=textures.get(tile.kind==='wood'?'timber':isGround?'foundation':'stone');
+    if(!active()||!image)return base.platform.call(this,tile,theme);
+    const ctx=this.ctx;
     ctx.save();ctx.imageSmoothingEnabled=false;ctx.beginPath();ctx.rect(tile.x,tile.y,tile.w,tile.h);ctx.clip();
     const start=tile.x+Math.max(0,Math.floor((this.viewportX-tile.x-128)/128)*128);
     for(let x=start;x<Math.min(tile.x+tile.w,this.viewportX+1088);x+=128)for(let y=tile.y;y<tile.y+tile.h;y+=128)ctx.drawImage(image,Math.round(x),y,128,128);

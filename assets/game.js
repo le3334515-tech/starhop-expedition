@@ -3,7 +3,7 @@ import { loadCampaignTheme, installCampaignArt } from './campaign-art.js';
 import { CAMPAIGN_SAVE_KEY, validCampaignSave } from './campaign-runtime.js';
 import { BOSS_MOVES } from './campaign-boss.js';
 import { SoulsInput as Bi, keyName } from "./souls-input.js";
-import { installSoulsPresentation } from "./souls-presentation.js";
+import { installSoulsPresentation } from "./souls-presentation.js?v=11.0.1";
 import { combatFxAvailable } from "./combat-vfx-art.js";
 import { renderRunHud } from "./run-hud.js";
 (function () {

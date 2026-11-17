@@ -1,5 +1,5 @@
 import { MONSTERS, attackBox } from './combat-actions.js';
-import { drawForestEnemy, installForestArt } from './forest-art.js';
+import { drawForestEnemy, installForestArt } from './forest-art.js?v=11.0.1';
 import { drawAshenHero } from './hero-art.js';
 import { weaponMuzzle } from './hero-animation.js';
 
