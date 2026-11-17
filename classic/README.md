@@ -1,10 +1,16 @@
-# 星跃远征 v4.4
+# 星跃远征 v4.4.1
 
 基于用户提供的《星跃远征 v4.1》制作的改进版，保留像素武侠风格、角色与场景素材、八幕远征和三种武器。
 
-公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.4)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
+公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.4.1)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
 
-下载：[离线版 v4.4](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.4.zip) · [源码 v4.4](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.4.zip)。
+下载：[离线版 v4.4.1](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.4.1.zip) · [源码 v4.4.1](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.4.1.zip)。
+
+## v4.4.1 武器动作修正
+
+- 法杖采用抬杖、出掌施法与回弹收势，飞轮采用独立甩投与收手动作。
+- 远程武器不再复用拔刀攻击帧，并清理角色原动画中的残留剑影；待机、跑动和空中动作与当前武器对应。
+- 短刃继续使用原有三连斩动作。角色、配色与像素风格保留，伤害、碰撞判定和出手时机不变。
 
 ## v4.4 战斗更新
 
@@ -87,7 +93,7 @@ npm run package
 
 `dist/` 为网站部署文件；`delivery/星跃远征.html` 为素材内嵌的离线单文件，双击即可游玩。共享成绩查看、同步与提交需要联网，游戏本体不需要联网。
 
-本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.4`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
+本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.4.1`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
 
 v4.4 沿用经典版既有的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
 
@@ -95,4 +101,4 @@ v4.4 沿用经典版既有的共享榜单、缓存命名空间和玩家身份，
 
 素材继续使用原 v4.1 中 LuizMelo、Anokolisa、ansimuz、Szadi art. 与 Pimen 的作品，详见 [素材来源与许可](docs/素材来源与许可.md)。原作者、许可和游戏内鸣谢保留。
 
-本轮输入与界面记录见 [v4.4 战斗更新](docs/2026-11-17-v4.4-combat-update.md)；既有修正见 [v4.3.1 发布记录](docs/2026-11-17-v4.3.1-release.md)。前两轮保留在 [v4.3 发布记录](docs/2026-11-17-v4.3-release.md) 与 [v4.2 发布记录](docs/2026-11-17-v4.2-release.md)。
+本轮记录见 [v4.4.1 武器动作修正](docs/2026-11-17-v4.4.1-animation.md)；此前输入与界面记录见 [v4.4 战斗更新](docs/2026-11-17-v4.4-combat-update.md)，既有修正见 [v4.3.1 发布记录](docs/2026-11-17-v4.3.1-release.md)。前两轮保留在 [v4.3 发布记录](docs/2026-11-17-v4.3-release.md) 与 [v4.2 发布记录](docs/2026-11-17-v4.2-release.md)。
