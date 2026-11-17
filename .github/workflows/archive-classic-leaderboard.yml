@@ -1,0 +1,36 @@
+name: Archive classic v4.2 leaderboard
+
+on:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Merge completed runs and shared profile edits
+        run: node classic/scripts/archive-leaderboard.mjs classic
+      - name: Save changed leaderboard data
+        shell: bash
+        run: |
+          git add classic/leaderboard/*.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "starhop-leaderboard[bot]"
+          git config user.email "starhop-leaderboard[bot]@users.noreply.github.com"
+          git commit -m "Archive classic v4.2 leaderboard results and names"
+          git push origin HEAD:main
