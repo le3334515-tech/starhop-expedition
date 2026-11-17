@@ -1,0 +1,72 @@
+{
+  "run": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 24,
+    "uniqueFrames": 24,
+    "nonemptyFrames": 24,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "671620ae29f2ed68b2bb94c2fc8cf6ef77156a9e1805e1bbd711bc63551b69e8"
+  },
+  "guard": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 24,
+    "uniqueFrames": 24,
+    "nonemptyFrames": 24,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "579cef67926d91d015b911ee850c2f1d78aff5cc63a51149a28d1e3f00cebe40"
+  },
+  "jump": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 24,
+    "uniqueFrames": 24,
+    "nonemptyFrames": 24,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "f25ad63c56e0487f6d1eea60dbdbeee57bb27ca198677261f974aea90a85dfca"
+  },
+  "blade": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 36,
+    "uniqueFrames": 36,
+    "nonemptyFrames": 36,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "25cfdc900e50eb5952f70df34d6fb5bde5166697143c3a562b0869a37def27b3"
+  },
+  "cast": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 24,
+    "uniqueFrames": 24,
+    "nonemptyFrames": 24,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "25589aac46c0891e013b64d78647fa336b59be40fea469949af20c25074427c1"
+  },
+  "dodge": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 16,
+    "uniqueFrames": 16,
+    "nonemptyFrames": 16,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "fdc461a846fc6c892cc1e33923ec2464a5777ce5977295e3545718f11f756a43"
+  },
+  "hurt": {
+    "frameWidth": 128,
+    "frameHeight": 112,
+    "frames": 16,
+    "uniqueFrames": 16,
+    "nonemptyFrames": 16,
+    "anchorX": 64,
+    "anchorY": 108,
+    "sha256": "745d1a5f9e6bdf5f61f8b374e59d281b4b8f95a3e0e025aaa4fa731d386a35fd"
+  }
+}

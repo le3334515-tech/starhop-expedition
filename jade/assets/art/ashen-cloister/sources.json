@@ -1,0 +1,24 @@
+{
+  "generator": "Built-in image_gen",
+  "promptRecord": "output/imagegen/ashen-cloister/generation.json",
+  "processing": "Nearest-neighbour slicing and alpha threshold, manual pose anchors. No existing Dead Cells artwork used.",
+  "files": {
+    "background.png": "552f3dd1710e478fcdb41ca0b8394ec11a4a315964347eb9ad069480a5900619",
+    "bat.png": "92646d51a4058dbb0e8446181113b26968cec46a0f8a6f064ff23505f4469a39",
+    "chest-open.png": "c7060ebd965aff730702eda4990f3dc65efbdb07064d6f5964d4e080e54a13a9",
+    "chest.png": "1d8728b93b151dacf934f485ba86c874b3c66eb82bfce77f7ca37ad5cb4cd941",
+    "crate-broken.png": "9ee6ed349f54f85d5f17a83eba2e778e1521521ff382f7c8306fdbfc945fe14b",
+    "crate.png": "0a8287f2066a187b5e32086c3c3acb8f4f1edc29ef9ffcfb77f0df84f68384d9",
+    "foundation.png": "e960c5fa942340b57a9ee67ff939ad2ad73fa82f980b3a70e7988fc2c8159129",
+    "iron.png": "e0289ce3c212940c38362928c9c8164be2a75ada60e8ed6b45cf94640813e79a",
+    "rock.png": "90e22d8fcd6433e06e27b7319201bd3702efff0a9cf90f940bc437770bb7f3f2",
+    "root.png": "85fd16a0e6e10e718ae9432e3f8d145b93d77952078abe1173cc3376b4f47a38",
+    "seed.png": "d35babee9d178ce3a7346252087a628515cbcd809e3cbedbdd6fb4e3883f07f6",
+    "shrine-off.png": "603b3b1eb27c1aacd43eca26a62d0ac181b6e4409ab74efb91a1b9108e4f675d",
+    "shrine-on.png": "a6b7d584ab32d82e186f629a3e5ed67dfd512e687fcb772dd6ab4f6a6743901f",
+    "stone.png": "05a6a77083bbc14b142b45725bb94e22c74332e9bbbff6f7d2d01758532c48c8",
+    "timber.png": "a2279aa98dd1f6b168beebedd01c74953f3c4302d143716aee19db893b3e5aba",
+    "vial.png": "62493f02dad188a59a2e67ec3f0c51278d939fb69e79e4c41710ec3fefb63e0f",
+    "warden.png": "8749c086280ff747fe4509eaed025a8c09b58598fe4706791dee2a6d135e25c2"
+  }
+}

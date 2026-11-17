@@ -1,0 +1,164 @@
+[
+  {
+    "file": "trunk-idle.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Trunk/Idle (64x32).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "bbc3bed28d0ce03315a0c00aef3ce89519e7aed1eb40327fb816e29b5abebe67"
+  },
+  {
+    "file": "trunk-run.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Trunk/Run (64x32).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "af9a4872924b08d9fc721e23be05572faed89428f46ec49497bb5a5f2b515b6f"
+  },
+  {
+    "file": "trunk-attack.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Trunk/Attack (64x32).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "aa4ebd014fb15e8f8ebae0ff58880c5cb14d94ad6412e2132ee617f48ea4ffcc"
+  },
+  {
+    "file": "trunk-hit.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Trunk/Hit (64x32).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "1b3ce7c6b273ec809994da65cfd702031d9ab7c6253d3832eef9345d51669a60"
+  },
+  {
+    "file": "trunk-bullet.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Trunk/Bullet.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "bda07fddce70b45e7dd70ac8b98bae71ef55409080d0cfb78a5729529f3df837"
+  },
+  {
+    "file": "bat-fly.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Bat/Flying (46x30).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "fc62ba4d2037004ece0ef2ba722eca7ce2d5f8d49d43a6a5d1ff1378924b1770"
+  },
+  {
+    "file": "bat-hit.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Bat/Hit (46x30).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "e1a64068e963bacb140c0519221b42a5966688403c6b70b67ef9c058e51a2ee9"
+  },
+  {
+    "file": "rock-idle.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Rocks/Rock1_Idle (38x34).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "6f540ee33e7808653516c6b909dfd25e9ba6b5a1cdc9b224750792a9df3803c1"
+  },
+  {
+    "file": "rock-run.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Rocks/Rock1_Run (38x34).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "f246182b93e08cf27f1e58cdf87cc273048f5330344eec5625b579a0a057d245"
+  },
+  {
+    "file": "rock-hit.png",
+    "archive": "Characters_角色人物/monster.zip",
+    "entry": "monster/Rocks/Rock1_Hit.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-2",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "a3620370521988b8b0bc783b438b1d70303f8ae85ee065a7bc082dff69fa757c"
+  },
+  {
+    "file": "crate-idle.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Boxes/Box1/Idle.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "2d0339d0c6bb02eb7b77fcb75d0d45c51dd906cbfcaff3e19e49a954b461f2ae"
+  },
+  {
+    "file": "crate-hit.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Boxes/Box1/Hit (28x24).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "d6b4ef9d11bf407d82d1bd0b5f73d1efe067eb2403e3885283c5592c18aa21cd"
+  },
+  {
+    "file": "crate-break.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Boxes/Box1/Break.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "a201cdbe5ea9f508f0b5e5167a0615bac1c668086ef7c7af9366e3daf01797da"
+  },
+  {
+    "file": "flag-idle.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "99fd9012b3935a91f580922c051ca2cbe86fe85c1ca5d8a1dbf09fc161f3e309"
+  },
+  {
+    "file": "flag-raise.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "b4e42b307d92ec89a2ed2857c021732cc8b27740e7cab6307723086551c1dee5"
+  },
+  {
+    "file": "flag-off.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "cd048973d0ead9e6c81003601bd041c364044eb8210e9e71e473076a9afa5ae7"
+  },
+  {
+    "file": "apple.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Fruits/Apple.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "ee71a978665c5c375603a4a047d129729e319f03708787279954171caabfd1e3"
+  },
+  {
+    "file": "collected.png",
+    "archive": "UI_Elements_界面元素/IconsPropsMonsters.zip",
+    "entry": "IconsPropsMonsters/Items/Fruits/Collected.png",
+    "source": "https://pixelfrog-assets.itch.io/pixel-adventure-1",
+    "author": "Pixel Frog",
+    "license": "CC0",
+    "sha256": "a95221be04a4eb2b567f12954257307b4b4a6735373562309a130a88ff978c11"
+  }
+]
