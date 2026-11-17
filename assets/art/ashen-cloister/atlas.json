@@ -1,0 +1,30 @@
+{
+  "root": {
+    "frameWidth": 176,
+    "frameHeight": 112,
+    "frames": 8,
+    "anchorX": 88.0,
+    "anchorY": 108
+  },
+  "rock": {
+    "frameWidth": 176,
+    "frameHeight": 112,
+    "frames": 8,
+    "anchorX": 88.0,
+    "anchorY": 108
+  },
+  "warden": {
+    "frameWidth": 176,
+    "frameHeight": 112,
+    "frames": 8,
+    "anchorX": 88.0,
+    "anchorY": 108
+  },
+  "bat": {
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "frames": 8,
+    "anchorX": 88.0,
+    "anchorY": 64.0
+  }
+}

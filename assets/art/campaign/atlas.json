@@ -1,0 +1,493 @@
+{
+  "boss-0": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      10622,
+      10285,
+      11088,
+      10231,
+      10680,
+      11676,
+      10165,
+      11149,
+      9702,
+      9906,
+      11422,
+      9921,
+      10862,
+      10261,
+      8633,
+      6911
+    ],
+    "sha256": "1df3ed91ccd25761668f20463ff6e270092784cb46ad6b6b7cf235584a9e7de8"
+  },
+  "boss-1": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      10534,
+      10432,
+      10606,
+      11215,
+      10582,
+      11193,
+      12005,
+      13126,
+      12749,
+      11457,
+      14531,
+      11429,
+      12653,
+      11742,
+      11876,
+      9508
+    ],
+    "sha256": "e825e89c3a11f892fc68fba18ddfccedf753d2925fde9ba81e9e501b019d6a03"
+  },
+  "boss-2": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      10601,
+      10422,
+      10560,
+      10540,
+      9838,
+      10050,
+      10280,
+      10159,
+      9235,
+      10158,
+      10400,
+      9691,
+      10060,
+      9970,
+      9129,
+      6580
+    ],
+    "sha256": "96b3c11451141747ef00690c59561183bf91a54f71bca26b97eff15f7d8a102f"
+  },
+  "boss-3": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      14625,
+      14508,
+      14140,
+      13885,
+      14404,
+      14312,
+      14042,
+      14401,
+      12964,
+      12404,
+      10525,
+      11963,
+      14567,
+      12323,
+      10755,
+      6807
+    ],
+    "sha256": "7eca46db2a27d5c6db61bb75b4d97d447e6fe22114ffe105852225c28dda5650"
+  },
+  "boss-4": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      8836,
+      9416,
+      10073,
+      10428,
+      10390,
+      10572,
+      11645,
+      12577,
+      10338,
+      12533,
+      10734,
+      9236,
+      11434,
+      10148,
+      8692,
+      4915
+    ],
+    "sha256": "b60330a599ba1848ce277a97f364e4d2e2c24d9c218def1652217c7bef371d51"
+  },
+  "boss-5": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1263,
+      1246
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      18709,
+      17984,
+      16341,
+      17197,
+      17697,
+      17228,
+      17576,
+      16455,
+      16828,
+      17740,
+      16776,
+      16680,
+      16517,
+      15165,
+      12714,
+      8945
+    ],
+    "sha256": "4285b3b6d766f429e0f4bf4fd181c27af7e0f5f1197fb6390c85a6918c22cf5b"
+  },
+  "boss-6": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      9824,
+      9985,
+      9735,
+      8716,
+      9477,
+      9965,
+      10902,
+      11873,
+      10933,
+      10343,
+      10915,
+      9538,
+      10668,
+      10072,
+      8086,
+      5412
+    ],
+    "sha256": "698b526549c38b048b060e10943dada749c5536d4236740aa9ab8ce6dcf65590"
+  },
+  "boss-7": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      9553,
+      9551,
+      9460,
+      9209,
+      8997,
+      9275,
+      9707,
+      9588,
+      8377,
+      7708,
+      9825,
+      8552,
+      9051,
+      8256,
+      7535,
+      6280
+    ],
+    "sha256": "274e704eb63a65c232df2088e50d56c44a8a5d9de1aa0df2216a675aa20f6494"
+  },
+  "boss-8": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      8333,
+      8496,
+      8996,
+      9095,
+      9848,
+      10472,
+      11156,
+      11403,
+      11126,
+      10837,
+      11338,
+      8967,
+      9575,
+      8409,
+      7048,
+      4547
+    ],
+    "sha256": "d3572f23d994629426877b4e75c6700ac4469c9b1e7da169091bf7bdce21c096"
+  },
+  "boss-9": {
+    "frames": 16,
+    "frameWidth": 256,
+    "frameHeight": 192,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      9797,
+      9755,
+      9034,
+      9148,
+      8475,
+      8543,
+      9728,
+      11127,
+      9363,
+      10873,
+      9891,
+      8026,
+      9078,
+      8470,
+      7640,
+      5093
+    ],
+    "sha256": "539993caee30247894fbcac088f5a12e8efd4fed071ad1aebaf7f865b6dd4af8"
+  },
+  "bg-1": {
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtime": "background.png"
+  },
+  "bg-2": {
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtime": "background.png"
+  },
+  "bg-3": {
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtime": "background.png"
+  },
+  "bg-4": {
+    "sourceSize": [
+      1536,
+      1024
+    ],
+    "runtime": "background.png"
+  },
+  "tiles-1": {
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtime": "four materials"
+  },
+  "tiles-2": {
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtime": "four materials"
+  },
+  "tiles-3": {
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtime": "four materials"
+  },
+  "tiles-4": {
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "runtime": "four materials"
+  },
+  "mob-0": {
+    "frames": 16,
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      2677,
+      2771,
+      2868,
+      2865,
+      2987,
+      3156,
+      3450,
+      3446,
+      2886,
+      3203,
+      3060,
+      2936,
+      3021,
+      2758,
+      2685,
+      2124
+    ],
+    "sha256": "95dc64b4d03fe0e34318d6181334f75662c863c5636324fae9fad5c9bb56ae87"
+  },
+  "mob-1": {
+    "frames": 16,
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      3677,
+      3608,
+      3664,
+      3543,
+      3548,
+      3621,
+      3612,
+      3861,
+      3357,
+      3522,
+      3707,
+      3626,
+      3574,
+      3430,
+      3089,
+      2508
+    ],
+    "sha256": "db450e09f73a2ec44b4b344f9fc874db0cd813fbbd143b35fe3dfef5ce9753db"
+  },
+  "mob-2": {
+    "frames": 16,
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      3188,
+      3075,
+      3053,
+      2931,
+      2989,
+      3146,
+      3103,
+      3167,
+      3913,
+      3442,
+      3303,
+      3447,
+      3439,
+      3160,
+      2680,
+      1924
+    ],
+    "sha256": "02645b897d90a890f758d62d9d92b160fdaa30326b038c503f45ebea8c9278d3"
+  },
+  "mob-3": {
+    "frames": 16,
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      3176,
+      3099,
+      3079,
+      3013,
+      3065,
+      2986,
+      3116,
+      3140,
+      3024,
+      2961,
+      3097,
+      3035,
+      2899,
+      2901,
+      2629,
+      1928
+    ],
+    "sha256": "f34df267c8ccb818bb771e5b636fd221c23725eb018ab91985bc8910705e30bd"
+  },
+  "mob-4": {
+    "frames": 16,
+    "frameWidth": 176,
+    "frameHeight": 128,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "uniqueFrames": 16,
+    "occupiedPixels": [
+      3529,
+      3557,
+      3735,
+      3583,
+      4010,
+      3875,
+      4193,
+      4299,
+      3583,
+      3945,
+      3731,
+      3687,
+      3869,
+      3639,
+      3029,
+      2231
+    ],
+    "sha256": "9483dad0abbe4f4543fdd8f4d79460d2d4245af13e9df40f96465286c1946842"
+  }
+}

@@ -1,3 +1,21 @@
+## v11 十座王庭
+
+本轮 23 张母图全部使用内置 image_gen 生成原创设计：10 位关底 Boss、5 种地貌敌人（共 240 个不同姿态）、四套新背景和四张地表材质图。沉钟修院继续复用 v8 的原创生成背景、材质与交互物；主角和战斗特效沿用 v9/v10 自生成素材。未引入《死亡细胞》原始图片或代码。
+
+完整最终提示词与原始来源路径在 `output/imagegen/campaign/generation.json`，母图同目录；`scripts/prepare-campaign-art.py` 负责透明度检查、固定网格切帧和最近邻缩放。`assets/art/campaign/atlas.json` 记录运行尺寸、非空像素数、帧去重与哈希。未复制同一姿态凑帧。
+
+## v10 当前主角
+
+余烬行者为内置 image_gen 生成的原创角色，七组图条共 164 个不同且非空的姿态，另含 HUD 头像。素材、帧表和哈希位于 `assets/art/ashen-hero/`；完整母图与最终提示词保存在 `output/imagegen/ashen-hero/`。做了切帧、透明边缘与锚点处理、最近邻缩放，原图保留。原主角资源保留作加载失败回退。
+
+## v9 盾卫和特效
+
+重盾守卫为内置 image_gen 生成的 16 帧独立姿态；斩击、命中、格挡/破盾、火焰爆发、飞轮及闪避共六套原创 24 帧序列。完整母图与最终提示词保存在 `output/imagegen/shield-vfx/`，运行图条、独立帧计数及 SHA256 在 `assets/art/ashen-vfx/`。进行了切帧、脚底锚点对齐和最近邻缩放；没有通过复制同一帧凑数。旧版简易刀光在新素材就绪后停用，加载失败时保留回退。
+
+## v8 当前关卡的原创生成美术
+
+灰烬回廊的敌人（腐化木灵、苔甲石傀、裂翼妖蝠、灰烬守卫）、修院背景、地形和交互物使用内置 image_gen 生成，再进行切帧、最近邻缩放、透明边缘和锚点校准。完整提示词与母图：`output/imagegen/ashen-cloister/`；实际运行素材与哈希：`assets/art/ashen-cloister/`。没有引入《死亡细胞》的原始图像。本关已替换 v7 的 Pixel Frog 卡通素材；下文保留历史来源记录。主角和原有战斗特效仍使用下列已注明来源的资源。
+
 # 美术素材来源与许可
 
 核对与下载日期：2026-11-16。本次更新使用下列作者发布的真实像素素材。网页素材地址和引入后的 PNG 位于 `src/assets/art/`；下载页、原始压缩包及许可核对记录保存在本地 `output/asset-sources/`，不将完整素材库随游戏发布。
@@ -25,6 +43,8 @@ Anokolisa 原始条款链接：<https://drive.google.com/file/d/17y1gjuwVirE8V79
 上述许可中可选的作者鸣谢也一并保留。Gothicvania Town 中音乐作者为 Pascal Belisle，音乐的说明独立于图像许可；本次未使用其音乐。
 
 ## 游戏内可使用的鸣谢文案
+
+Pixel Frog：树桩、蝙蝠、岩石怪来自 [Pixel Adventure 2](https://pixelfrog-assets.itch.io/pixel-adventure-2)；木箱、苹果、拾取消散及检查点来自 [Pixel Adventure 1](https://pixelfrog-assets.itch.io/pixel-adventure-1)，原作者页面标注 CC0。由用户提供的 PixelSRPG-Forge 素材包选取，共 18 张 PNG；保留原文件，渲染时统一调色。逐文件路径、原包来源与 SHA256 记录在 `assets/art/forest-creatures/sources.json`。素材整理仓库的 MIT 不作为这些图片的授权依据。
 
 角色与怪物动画：LuizMelo（Martial Hero、Monsters Creatures Fantasy、Evil Wizard 2），CC0。
 

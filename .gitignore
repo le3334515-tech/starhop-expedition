@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+playwright-report/
+preview-*.png
+preview-*.gif
+preview-*.mp4
+output/hero-preview/
+output/shield-vfx-preview/
+output/campaign-boss-*.png
+output/campaign-preview-contact.jpg
+output/campaign-server*.log
+output/campaign-tests.log
+
+# Local image masters, playtest captures, and working exports.
+output/

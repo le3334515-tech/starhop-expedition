@@ -1,0 +1,13 @@
+{
+  "name": "starhop-expedition",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  },
+  "type": "module"
+}
