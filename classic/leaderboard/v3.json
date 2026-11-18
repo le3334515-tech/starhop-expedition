@@ -1,6 +1,6 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-17T21:53:33.970Z",
+  "updatedAt": "2026-11-18T03:50:48.908Z",
   "records": [
     {
       "version": "starhop-v3",
@@ -34,6 +34,75 @@
         "synergies": [
           "blazing",
           "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1k9qc15_1qk7rvx",
+      "playerId": "player_0821534ac16749818488de9717070556",
+      "name": "星际旅人",
+      "createdAt": "2026-11-18T00:46:55.337Z",
+      "result": {
+        "seed": 3395240517,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 126.93,
+        "score": 29510,
+        "coins": 373,
+        "kills": 35,
+        "level": 8,
+        "deaths": 2,
+        "roomsCleared": 8,
+        "maxCombo": 5,
+        "overdriveCount": 2,
+        "upgrades": [
+          "multishot",
+          "shield",
+          "vigor",
+          "blood",
+          "multishot",
+          "magnet",
+          "edge"
+        ],
+        "synergies": [
+          "fireflies",
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_b9uz7k_h3uj76",
+      "playerId": "player_2502ad2cd6b54ca9ab9459bc1f4386b4",
+      "name": "星际旅人",
+      "createdAt": "2026-11-18T00:47:21.646Z",
+      "result": {
+        "seed": 3395240517,
+        "modifier": "standard",
+        "weapon": "ember",
+        "won": true,
+        "time": 138.28,
+        "score": 66744,
+        "coins": 1850,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 5,
+        "overdriveCount": 2,
+        "upgrades": [
+          "magnet",
+          "fortune",
+          "fortune",
+          "multishot",
+          "blood",
+          "shield",
+          "edge"
+        ],
+        "synergies": [
+          "fireflies"
         ]
       }
     },
@@ -102,6 +171,41 @@
         ],
         "synergies": [
           "blazing",
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_12420ka_1dq3j2g",
+      "playerId": "player_5c2ead91284a4c72981101f6a76884a5",
+      "name": "星际旅人",
+      "createdAt": "2026-11-18T00:42:23.702Z",
+      "result": {
+        "seed": 3395240517,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 236.43,
+        "score": 69484,
+        "coins": 1991,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 4,
+        "overdriveCount": 2,
+        "upgrades": [
+          "magnet",
+          "fortune",
+          "fortune",
+          "blood",
+          "multishot",
+          "vigor",
+          "edge"
+        ],
+        "synergies": [
+          "fireflies",
           "guardian"
         ]
       }
