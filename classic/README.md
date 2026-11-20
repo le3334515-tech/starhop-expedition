@@ -1,10 +1,13 @@
-# 星跃远征 v4.6.1
+# 星跃远征 v4.7
 
 基于用户提供的《星跃远征 v4.1》制作的改进版，保留像素武侠风格、角色与场景素材、八幕远征和三种武器。
 
-公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6.1)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
+公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.7)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
 
-下载：[离线版 v4.6.1](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.6.1.zip) · [源码 v4.6.1](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.6.1.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
+下载：[离线版 v4.7](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.7.zip) · [源码 v4.7](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.7.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
+
+## v4.7 余烬破封
+普通远征、守卫迎战与玄烬魔君各有一首原创配乐。守卫破封时，战鼓收声，长杖聚焰，铜锣落下时金面法相显现、双幡展开；第二形态沿用原金面、兜帽与焰杖，并在连冲收招时留下延迟爆发的杖印。音乐与所有动作已嵌入离线版。
 
 ## v4.6.1 双人连接修复
 
@@ -112,7 +115,7 @@ npm run package
 
 `dist/` 为网站部署文件；`delivery/星跃远征.html` 为素材内嵌的离线单文件，双击即可游玩。共享成绩查看、同步与提交和双人在线竞速需要联网，单人游戏本体不需要联网。
 
-本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6.1`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
+本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.7`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
 
 v4.4 沿用经典版既有的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
 
