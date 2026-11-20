@@ -1,10 +1,14 @@
-# 星跃远征 v4.6
+# 星跃远征 v4.6.1
 
 基于用户提供的《星跃远征 v4.1》制作的改进版，保留像素武侠风格、角色与场景素材、八幕远征和三种武器。
 
-公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
+公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6.1)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
 
-下载：[离线版 v4.6](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.6.zip) · [源码 v4.6](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.6.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
+下载：[离线版 v4.6.1](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.6.1.zip) · [源码 v4.6.1](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.6.1.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
+
+## v4.6.1 双人连接修复
+
+点「双人竞速」后可复制好友直连邀请。房主在竞速期间保持游戏页面打开。浏览器未开放直连时，同一邀请会尝试加密 HTTPS 线路。遇到两台设备无法直连时，房主可在等待页点「改用服务器建房」，再分享新邀请。
 
 ## v4.6 手机联机与七境机关
 
@@ -108,7 +112,7 @@ npm run package
 
 `dist/` 为网站部署文件；`delivery/星跃远征.html` 为素材内嵌的离线单文件，双击即可游玩。共享成绩查看、同步与提交和双人在线竞速需要联网，单人游戏本体不需要联网。
 
-本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
+本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.6.1`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
 
 v4.4 沿用经典版既有的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
 
