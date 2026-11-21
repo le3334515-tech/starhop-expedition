@@ -1,6 +1,6 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-21T08:44:25.065Z",
+  "updatedAt": "2026-11-21T16:56:27.602Z",
   "records": [
     {
       "version": "starhop-v3",
@@ -244,5 +244,13 @@
     }
   ],
   "legacyRecords": [],
-  "profiles": []
+  "profiles": [
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_eba2ceb9748b499fb98cdbc33954c84b",
+      "name": "星际旅人",
+      "updatedAt": "2026-11-21T13:35:49.372Z"
+    }
+  ]
 }
