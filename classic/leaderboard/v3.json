@@ -1,6 +1,6 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-18T03:50:48.908Z",
+  "updatedAt": "2026-11-21T08:44:25.065Z",
   "records": [
     {
       "version": "starhop-v3",
@@ -34,6 +34,39 @@
         "synergies": [
           "blazing",
           "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1syi2h0_1eublxe",
+      "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
+      "name": "星际旅人",
+      "createdAt": "2026-11-21T05:13:16.153Z",
+      "result": {
+        "seed": 2891238137,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 111.2,
+        "score": 27885,
+        "coins": 287,
+        "kills": 35,
+        "level": 7,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 6,
+        "overdriveCount": 3,
+        "upgrades": [
+          "multishot",
+          "multishot",
+          "frost",
+          "edge",
+          "breeze",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing"
         ]
       }
     },
@@ -108,6 +141,40 @@
     },
     {
       "version": "starhop-v3",
+      "runId": "run_5ubo8d_18sp58p",
+      "playerId": "player_459ca1e6aeee4f66a6cc4d51f4e54e15",
+      "name": "星际旅人",
+      "createdAt": "2026-11-21T05:06:08.407Z",
+      "result": {
+        "seed": 2891238137,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 173.2,
+        "score": 29114,
+        "coins": 356,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 5,
+        "overdriveCount": 3,
+        "upgrades": [
+          "multishot",
+          "multishot",
+          "frost",
+          "edge",
+          "bell",
+          "tempo",
+          "stride"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
       "runId": "run_oo2owj_15nahmr",
       "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
       "name": "星际旅人",
@@ -136,41 +203,6 @@
           "vigor"
         ],
         "synergies": [
-          "guardian"
-        ]
-      }
-    },
-    {
-      "version": "starhop-v3",
-      "runId": "run_1vswqfv_9ogxw7",
-      "playerId": "player_459ca1e6aeee4f66a6cc4d51f4e54e15",
-      "name": "星际旅人",
-      "createdAt": "2026-11-17T13:36:25.515Z",
-      "result": {
-        "seed": 3193088184,
-        "modifier": "standard",
-        "weapon": "blade",
-        "won": true,
-        "time": 225.1,
-        "score": 28924,
-        "coins": 373,
-        "kills": 35,
-        "level": 8,
-        "deaths": 1,
-        "roomsCleared": 8,
-        "maxCombo": 8,
-        "overdriveCount": 3,
-        "upgrades": [
-          "vigor",
-          "blood",
-          "edge",
-          "tempo",
-          "vigor",
-          "tempo",
-          "tempo"
-        ],
-        "synergies": [
-          "blazing",
           "guardian"
         ]
       }
