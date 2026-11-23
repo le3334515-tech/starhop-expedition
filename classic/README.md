@@ -1,14 +1,14 @@
-# 星跃远征 v4.8.1
+# 星跃远征 v4.9
 
 基于用户提供的《星跃远征 v4.1》制作的改进版，保留像素武侠风格、角色与场景素材、八幕远征和三种武器。
 
-公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.8.1)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
+公共游玩地址：[开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.9)。电脑和手机直接打开，无需安装。此版本部署在独立的 `classic/` 目录，已有根站和 `jade/` 版本保留。
 
-下载：[离线版 v4.8.1](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.8.1.zip) · [源码 v4.8.1](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.8.1.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
+下载：[离线版 v4.9](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v4.9.zip) · [源码 v4.9](https://le3334515-tech.github.io/starhop-expedition/classic/source-v4.9.zip) · [竞速后端源码](https://le3334515-tech.github.io/starhop-expedition/classic/race-relay-v4.5.zip)。
 
-## v4.8.1 手机封面
+## v4.9 战斗与特效
 
-手机版把主视觉、好友入口和行牒分开陈列；行牒显示首站，点开可查看八境顺序。
+手机版恢复 v4.8 的封面构图与行牒位置。普通关的守卫随进度加快追击和出招，Boss 的护甲与连段随形态加强。最终形态连冲会在玩家原先的位置留下延迟爆发的杖印。星陨觉醒时，玉剑、残影和符箓在爆发点聚合，短刃、法杖与飞轮各有对应的觉醒光效。
 
 ## v4.8 天烬降临
 从第二幕起逐步提高守卫的攻击节奏。沉钟与炉火可制敌，法杖的灼印可由回程飞轮引爆。玄烬魔君二形态降到半血时会再度变身，战斗续用剩余生命。最终阶段的专属攻势由《天烬终曲》伴奏，主角发动星陨觉醒时会展开玉金符阵。
@@ -122,7 +122,7 @@ npm run package
 
 `dist/` 为网站部署文件；`delivery/星跃远征.html` 为素材内嵌的离线单文件，双击即可游玩。共享成绩查看、同步与提交和双人在线竞速需要联网，单人游戏本体不需要联网。
 
-本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.8.1`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
+本版公共链接为 `https://le3334515-tech.github.io/starhop-expedition/classic/?v=4.9`。好友挑战使用当前页面生成链接；从离线版分享时，把 HTML 文件与挑战码一起发送。
 
 v4.4 沿用经典版既有的共享榜单、缓存命名空间和玩家身份，不清空已有成绩。原 v4.1 八幕纪录与原四幕纪录仍独立显示，根站归档文件保留。
 
