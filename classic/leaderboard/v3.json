@@ -1,6 +1,6 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-21T16:56:27.602Z",
+  "updatedAt": "2026-11-23T22:13:22.770Z",
   "records": [
     {
       "version": "starhop-v3",
@@ -100,6 +100,42 @@
           "edge"
         ],
         "synergies": [
+          "fireflies",
+          "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_2yeegu_rx7bc8",
+      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
+      "name": "lee",
+      "createdAt": "2026-11-23T13:47:42.454Z",
+      "result": {
+        "seed": 2857682899,
+        "modifier": "standard",
+        "weapon": "blade",
+        "won": true,
+        "time": 137.53,
+        "score": 30450,
+        "coins": 398,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 6,
+        "overdriveCount": 2,
+        "upgrades": [
+          "edge",
+          "multishot",
+          "edge",
+          "tempo",
+          "magnet",
+          "blood",
+          "vigor"
+        ],
+        "synergies": [
+          "blazing",
           "fireflies",
           "guardian"
         ]
