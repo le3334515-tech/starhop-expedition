@@ -155,4 +155,5 @@ Changes: cropped and aligned the animation frames, adjusted the palette, and sep
 
 Free 16x16 Weapon RPG Icons — Kurt Gabriel Sotelo (Shade). CC0 1.0.
 https://merchant-shade.itch.io/free-16x16-weapon-rpg-icons
-Five steel weapon tiles cropped, recolored and aligned for in-game use.
+Four steel weapon tiles used in the game, with adjusted palette and grip alignment.
+The Frost Branch Staff sprite is original artwork for Starhop Expedition.

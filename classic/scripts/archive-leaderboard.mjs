@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 // src/game/types.ts
 var EXPEDITION_ROOM_COUNT = 8;
-var CHARACTER_IDS = ["blade", "staff", "wheel", "spear", "traveller", "monk"];
+var CHARACTER_IDS = ["traveller", "blade", "staff", "wheel", "spear", "monk"];
 var isCharacterId = (value) => CHARACTER_IDS.some((character) => character === value);
 var SOLO_WEAPON_IDS = ["blade", "ember", "disc"];
 var CHARACTER_WEAPONS = {
@@ -108,29 +108,40 @@ function applyProfiles(records, profiles) {
 function compareRecords(a, b) {
   return a.result.time - b.result.time || a.createdAt.localeCompare(b.createdAt) || a.runId.localeCompare(b.runId);
 }
-function ranked(groups, version) {
+function recordHero(record) {
+  return record.result.character ?? "traveller";
+}
+function ranked(groups, version, perHero = false) {
   const best = /* @__PURE__ */ new Map();
   for (const group of groups) for (const raw of group) {
     const record = validateScore(raw, version);
     if (!record) continue;
-    const key = `${record.result.modifier}:${record.playerId}`;
+    const key = `${record.result.modifier}:${perHero ? recordHero(record) : ""}:${record.playerId}`;
     const previous = best.get(key);
     if (!previous || compareRecords(record, previous) < 0) best.set(key, record);
   }
-  return MODIFIER_IDS.flatMap((rule) => [...best.values()].filter((r) => r.result.modifier === rule).sort(compareRecords).slice(0, 10));
+  const records = [...best.values()];
+  return MODIFIER_IDS.flatMap((rule) => {
+    const matching = records.filter((r) => r.result.modifier === rule).sort(compareRecords);
+    return perHero ? CHARACTER_IDS.flatMap((hero) => matching.filter((r) => recordHero(r) === hero).slice(0, 10)) : matching.slice(0, 10);
+  });
 }
 function mergeRecords(...groups) {
   return ranked(groups, LEADERBOARD_VERSION);
 }
+function mergeHeroRecords(...groups) {
+  return ranked(groups, LEADERBOARD_VERSION, true);
+}
 function mergeLegacyRecords(...groups) {
   return ranked(groups, LEGACY_VERSION);
 }
-function makeSnapshot(records, updatedAt = (/* @__PURE__ */ new Date()).toISOString(), profiles = [], legacyRecords = []) {
+function makeSnapshot(records, updatedAt = (/* @__PURE__ */ new Date()).toISOString(), profiles = [], legacyRecords = [], heroRecords = []) {
   const names = mergeProfiles(profiles);
   return {
     version: LEADERBOARD_VERSION,
     updatedAt: new Date(updatedAt).toISOString(),
-    records: applyProfiles(mergeRecords(records), names),
+    records: applyProfiles(mergeRecords(records, heroRecords), names),
+    heroRecords: applyProfiles(mergeHeroRecords(records, heroRecords), names),
     legacyRecords: applyProfiles(mergeLegacyRecords(legacyRecords), names),
     profiles: names
   };
@@ -141,11 +152,13 @@ function parseSnapshot(value) {
   if (v.version === LEGACY_VERSION) return makeSnapshot([], v.updatedAt, [], v.records.map(validateLegacyRecord).filter((r) => !!r));
   if (v.profiles !== void 0 && (!Array.isArray(v.profiles) || v.profiles.length > 1e5)) return null;
   if (v.legacyRecords !== void 0 && (!Array.isArray(v.legacyRecords) || v.legacyRecords.length > 1e4)) return null;
+  if (v.heroRecords !== void 0 && (!Array.isArray(v.heroRecords) || v.heroRecords.length > 1e4)) return null;
   return makeSnapshot(
     v.records.map(validateRecord).filter((r) => !!r),
     v.updatedAt,
     v.profiles ?? [],
-    v.legacyRecords ?? []
+    v.legacyRecords ?? [],
+    v.heroRecords ?? []
   );
 }
 
@@ -224,7 +237,7 @@ async function archiveLeaderboard(options = {}) {
   const rawSnapshot = await optionalJson(snapshotFile);
   const previous = rawSnapshot === void 0 ? null : parseSnapshot(rawSnapshot);
   if (rawSnapshot !== void 0 && !previous) throw new Error("Existing leaderboard snapshot is invalid");
-  if (rawSnapshot !== void 0 && (!rawSnapshot.records.every((record) => validateRecord(record)) || !(rawSnapshot.legacyRecords ?? []).every((record) => validateLegacyRecord(record)) || !(rawSnapshot.profiles ?? []).every((profile) => validateProfile(profile)))) {
+  if (rawSnapshot !== void 0 && (!rawSnapshot.records.every((record) => validateRecord(record)) || !(rawSnapshot.heroRecords ?? []).every((record) => validateRecord(record)) || !(rawSnapshot.legacyRecords ?? []).every((record) => validateLegacyRecord(record)) || !(rawSnapshot.profiles ?? []).every((profile) => validateProfile(profile)))) {
     throw new Error("Existing leaderboard snapshot contains invalid records");
   }
   const rawCursor = await optionalJson(cursorFile);
@@ -245,7 +258,8 @@ async function archiveLeaderboard(options = {}) {
     return collectMessages(body);
   };
   let events;
-  if (!cursor) events = await poll("all");
+  const hasHeroArchive = Array.isArray(rawSnapshot?.heroRecords);
+  if (!cursor || !hasHeroArchive) events = await poll("all");
   else {
     const overlap = String(Math.max(0, cursor.lastEventTime - 120));
     try {
@@ -257,12 +271,12 @@ async function archiveLeaderboard(options = {}) {
     events.push(...await poll(overlap));
   }
   const unique = [...new Map(events.map((event) => [event.id, event])).values()].sort((a, b) => a.time - b.time || a.id.localeCompare(b.id));
-  const records = mergeRecords(previous?.records ?? [], unique.flatMap((event) => event.record ? [event.record] : []));
+  const records = [...previous?.records ?? [], ...unique.flatMap((event) => event.record ? [event.record] : [])];
   const legacyEvents = await poll("all", options.legacyTopic ?? LEADERBOARD_CONFIG.legacyTopic);
   const legacyRecords = mergeLegacyRecords(previous?.legacyRecords ?? [], legacySnapshot?.legacyRecords ?? [], legacyEvents.flatMap((e) => e.legacyRecord ? [e.legacyRecord] : []));
   const profiles = mergeProfiles(previous?.profiles ?? [], unique.flatMap((e) => e.profile ? [e.profile] : []));
-  const snapshot = makeSnapshot(records, (options.now?.() ?? /* @__PURE__ */ new Date()).toISOString(), profiles, legacyRecords);
-  const recordsChanged = !previous || JSON.stringify([snapshot.records, snapshot.legacyRecords, snapshot.profiles]) !== JSON.stringify([previous.records, previous.legacyRecords, previous.profiles]);
+  const snapshot = makeSnapshot(records, (options.now?.() ?? /* @__PURE__ */ new Date()).toISOString(), profiles, legacyRecords, previous?.heroRecords);
+  const recordsChanged = !previous || !hasHeroArchive || JSON.stringify([snapshot.records, snapshot.heroRecords, snapshot.legacyRecords, snapshot.profiles]) !== JSON.stringify([previous.records, previous.heroRecords, previous.legacyRecords, previous.profiles]);
   if (recordsChanged) await writeJson(snapshotFile, snapshot);
   const last = unique.at(-1);
   const nextCursor = last && (!cursor || last.time >= cursor.lastEventTime) ? {
@@ -272,7 +286,7 @@ async function archiveLeaderboard(options = {}) {
   } : cursor;
   const cursorChanged = nextCursor !== null && JSON.stringify(nextCursor) !== JSON.stringify(cursor);
   if (cursorChanged) await writeJson(cursorFile, nextCursor);
-  return { records: records.length, received: unique.length, recordsChanged, cursorChanged };
+  return { records: snapshot.records.length, received: unique.length, recordsChanged, cursorChanged };
 }
 if (process.argv[1] && /archive-leaderboard\.(?:mjs|ts)$/.test(path.basename(process.argv[1])) && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const deploymentRoot = process.argv[2] ?? path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
