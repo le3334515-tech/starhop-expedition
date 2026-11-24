@@ -152,3 +152,7 @@ https://chierit.itch.io/elementals-ground-monk
 License: Creative Commons Attribution 4.0 International
 https://creativecommons.org/licenses/by/4.0/
 Changes: cropped and aligned the animation frames, adjusted the palette, and separated the three attack stages for the game.
+
+Free 16x16 Weapon RPG Icons — Kurt Gabriel Sotelo (Shade). CC0 1.0.
+https://merchant-shade.itch.io/free-16x16-weapon-rpg-icons
+Five steel weapon tiles cropped, recolored and aligned for in-game use.
