@@ -1,8 +1,14 @@
-# 星跃远征 v5.2.10 · 玄阙同征
+# 星跃远征 v5.2.11 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.10) · [下载离线版 v5.2.10](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.10.zip) · [下载源码 v5.2.10](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.10.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.11) · [下载离线版 v5.2.11](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.11.zip) · [下载源码 v5.2.11](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.11.zip)
+
+## v5.2.11 远征规则与青翎
+
+点击「开启远征」后，在出发前直接选择经典远征、月球漫步、极速派对或一命之约。正式单人通关成绩进入所选规则对应的榜单。
+
+去掉青翎脸颊下方的遮脸布料，露出下颌。
 
 ## v5.2.10 速通成就和战斗动作
 
