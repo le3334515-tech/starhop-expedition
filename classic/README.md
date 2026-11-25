@@ -1,8 +1,14 @@
-# 星跃远征 v5.2.14 · 玄阙同征
+# 星跃远征 v5.2.15 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.14) · [下载离线版 v5.2.14](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.14.zip) · [下载源码 v5.2.14](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.14.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.15) · [下载离线版 v5.2.15](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.15.zip) · [下载源码 v5.2.15](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.15.zip)
+
+## v5.2.15 四人合作性能
+
+新版本满四人房把持续同步的角色、敌人状态和完整弹幕画面交错发送。三位客人的画面轮流优先发送，避免上传吃紧时某个席位长时间拿不到画面。
+
+客人收到较轻的动作更新后，已出现的弹幕会沿轨迹继续播放。完整画面优先传敌方弹幕和预警；房主直接绘制队友当前的弹体。四人战斗复用常见怪弹轮廓和受击着色，减少重复绘制。
 
 ## v5.2.14 受邀角色动作
 
