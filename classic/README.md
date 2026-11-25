@@ -1,8 +1,14 @@
-# 星跃远征 v5.2.9 · 玄阙同征
+# 星跃远征 v5.2.10 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.9) · [下载离线版 v5.2.9](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.9.zip) · [下载源码 v5.2.9](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.9.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.10) · [下载离线版 v5.2.10](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.10.zip) · [下载源码 v5.2.10](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.10.zip)
+
+## v5.2.10 速通成就和战斗动作
+
+单人八境速通分为 5、4、3、2、1 分钟五档，一次快速通关可连续解锁多档。已取得的 3 分钟成就会补齐 4 分钟档。
+
+重新校准角色握点、出手和收势，按兵器分别绘制斩痕、弹道与命中。各角色的闪避轨迹和觉醒爆发也有各自的轮廓。
 
 ## v5.2.9 小怪攻击特效
 
