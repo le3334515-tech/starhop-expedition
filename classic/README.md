@@ -1,8 +1,16 @@
-# 星跃远征 v5.2.7 · 玄阙同征
+# 星跃远征 v5.2.8 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.7) · [下载离线版 v5.2.7](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.7.zip) · [下载源码 v5.2.7](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.7.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.8) · [下载离线版 v5.2.8](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.8.zip) · [下载源码 v5.2.8](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.8.zip)
+
+## v5.2.8 联机流畅度
+
+合作房间的受邀玩家在本地立即播放移动和出招，房主继续判定命中、伤害和关卡进度。远端队友和场景对象在两次状态更新之间平滑移动。
+
+联机客户端协商压缩较大的战斗快照。直连拥塞时优先保留最新画面，备用线路也可在下载画面时发送按键。双人竞速按实际收包间隔播放对手幽灵。
+
+六位旅人觉醒期间免伤 6 秒，武器按各自的动作节奏出手、收势。站在单向平台上可按 S 下落，触屏向下拨动摇杆。
 
 ## v5.2.7 玄阙校场
 
@@ -171,6 +179,7 @@
 | --- | --- |
 | 移动 | A / D 或 ← / → |
 | 跳跃、二段跳 | 空格 / K；长按跳得更高 |
+| 从单向平台下落 | S / ↓，触屏向下拨摇杆 |
 | 攻击 | J / X |
 | 闪避 | Shift / L |
 | 格挡 | F |
