@@ -1,7 +1,42 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-24T12:04:08.389Z",
+  "updatedAt": "2026-11-25T13:28:29.709Z",
   "records": [
+    {
+      "version": "starhop-v3",
+      "runId": "run_56nfwn_1gg1ii3",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "星际旅人",
+      "createdAt": "2026-11-25T13:24:15.671Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 83.23,
+        "score": 27909,
+        "coins": 287,
+        "kills": 35,
+        "level": 8,
+        "deaths": 1,
+        "roomsCleared": 8,
+        "maxCombo": 32,
+        "overdriveCount": 2,
+        "upgrades": [
+          "bell",
+          "edge",
+          "tempo",
+          "shield",
+          "edge",
+          "thirdStar",
+          "afterimage"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
     {
       "version": "starhop-v3",
       "runId": "run_i45ejy_suhg38",
@@ -553,6 +588,111 @@
         "synergies": [
           "fireflies",
           "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_56nfwn_1gg1ii3",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "星际旅人",
+      "createdAt": "2026-11-25T13:24:15.671Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 83.23,
+        "score": 27909,
+        "coins": 287,
+        "kills": 35,
+        "level": 8,
+        "deaths": 1,
+        "roomsCleared": 8,
+        "maxCombo": 32,
+        "overdriveCount": 2,
+        "upgrades": [
+          "bell",
+          "edge",
+          "tempo",
+          "shield",
+          "edge",
+          "thirdStar",
+          "afterimage"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1wg05ut_e9yspx",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "星际旅人",
+      "createdAt": "2026-11-25T13:27:30.550Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "spear",
+        "character": "spear",
+        "won": true,
+        "time": 107.7,
+        "score": 28213,
+        "coins": 307,
+        "kills": 35,
+        "level": 8,
+        "deaths": 1,
+        "roomsCleared": 8,
+        "maxCombo": 25,
+        "overdriveCount": 4,
+        "upgrades": [
+          "breeze",
+          "edge",
+          "tempo",
+          "shield",
+          "edge",
+          "thirdStar",
+          "afterimage"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1ioqwum_14ts3c",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "星际旅人",
+      "createdAt": "2026-11-25T13:19:28.916Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "fist",
+        "character": "monk",
+        "won": true,
+        "time": 137.47,
+        "score": 28875,
+        "coins": 335,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 8,
+        "overdriveCount": 6,
+        "upgrades": [
+          "bell",
+          "edge",
+          "tempo",
+          "shield",
+          "edge",
+          "thirdStar",
+          "afterimage"
+        ],
+        "synergies": [
+          "blazing"
         ]
       }
     }
