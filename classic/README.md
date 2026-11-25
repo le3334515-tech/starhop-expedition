@@ -1,14 +1,14 @@
-# 星跃远征 v5.2.3 · 玄阙同征
+# 星跃远征 v5.2.4 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十一境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.3) · [下载离线版 v5.2.3](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.3.zip) · [下载源码 v5.2.3](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.3.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.4) · [下载离线版 v5.2.4](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.4.zip) · [下载源码 v5.2.4](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.4.zip)
 
-## v5.2.3 远征更新
+## v5.2.4 远征更新
 
 分开回风栈道、天仪中枢和合作关赤铸悬城的重叠平台。赤铸悬城加入赤铸炉螯和巡炉灯魇，断月星桥加入月弦铜鸢。
 
-提高沈霄、闻朔与怀岳的近身输出，也提高了原先偏弱的扇、镜和标枪伤害。沈霄的柳叶软剑采用原创冷青剑锋和暗红缠柄。裴行舟沿用原版三件兵器。
+提高沈霄、闻朔与怀岳的近身输出，也提高了原先偏弱的扇、镜和标枪伤害。沈霄的柳叶软剑采用原创冷青剑锋和暗红缠柄。裴行舟的星陨短刃直接命中伤害提高 18%，仍采用原版三件兵器与对应动作。
 
 大厅可查看成就。用不同英雄赢得远征、完成不同规则或挑战速通时间，都可解锁纪念印记。成就保存在当前浏览器。
 
