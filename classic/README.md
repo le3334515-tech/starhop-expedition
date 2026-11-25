@@ -1,8 +1,16 @@
-# 星跃远征 v5.2.4 · 玄阙同征
+# 星跃远征 v5.2.5 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十一境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.4) · [下载离线版 v5.2.4](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.4.zip) · [下载源码 v5.2.4](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.4.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.5) · [下载离线版 v5.2.5](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.5.zip) · [下载源码 v5.2.5](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.5.zip)
+
+## v5.2.5 场景与角色修正
+
+合作远征的赤铸悬城、断月星桥和玄阙王庭沿用原作的砖石、瓦檐与用色。镇星王沿用三形态尖冠剑将造型。两次变身加入归刃、锻印和金冠剑阵，最终形态带黑金悬剑。地裂、落剑与裁天的预警边线随实际攻击范围绘制。
+
+赤铸炉螯、巡炉灯魇和月弦铜鸢换用与原守卫接近的像素比例。三只怪各有不同的轮廓和出招动作。
+
+恢复裴行舟的头像取景。独立动作图读入失败时，用原版红笠待机图继续渲染。
 
 ## v5.2.4 远征更新
 
