@@ -1,36 +1,131 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-25T13:28:29.709Z",
+  "updatedAt": "2026-11-25T22:43:50.477Z",
   "records": [
     {
       "version": "starhop-v3",
-      "runId": "run_56nfwn_1gg1ii3",
-      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "runId": "run_7a2fb6_89f2274",
+      "playerId": "player_2ac13eb443d441348ffa639189276962",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-25T14:09:20.000Z",
+      "result": {
+        "seed": 2618093334,
+        "modifier": "standard",
+        "weapon": "fist",
+        "character": "monk",
+        "won": true,
+        "time": 0.01,
+        "score": 140,
+        "coins": 0,
+        "kills": 1,
+        "level": 1,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 0,
+        "overdriveCount": 0,
+        "upgrades": [],
+        "synergies": []
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_w5560r_l32tfj",
+      "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
       "name": "星际旅人",
-      "createdAt": "2026-11-25T13:24:15.671Z",
+      "createdAt": "2026-11-25T14:26:30.478Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "silkFan",
+        "character": "wheel",
+        "won": true,
+        "time": 55.03,
+        "score": 37635,
+        "coins": 659,
+        "kills": 35,
+        "level": 7,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 25,
+        "overdriveCount": 6,
+        "upgrades": [
+          "fortune",
+          "edge",
+          "tempo",
+          "stride",
+          "magnet",
+          "multishot"
+        ],
+        "synergies": [
+          "blazing",
+          "fireflies"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_13h5nhp_gpmul9",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:06:38.371Z",
       "result": {
         "seed": 2958348613,
         "modifier": "standard",
         "weapon": "ember",
         "character": "staff",
         "won": true,
-        "time": 83.23,
-        "score": 27909,
-        "coins": 287,
+        "time": 56.43,
+        "score": 27224,
+        "coins": 243,
         "kills": 35,
         "level": 8,
-        "deaths": 1,
+        "deaths": 0,
         "roomsCleared": 8,
-        "maxCombo": 32,
-        "overdriveCount": 2,
+        "maxCombo": 31,
+        "overdriveCount": 6,
         "upgrades": [
-          "bell",
+          "stride",
+          "multishot",
+          "thirdStar",
+          "gildedSwitch",
+          "stride",
+          "edge",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_3smi3n_aant0j",
+      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-25T13:47:10.774Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 79.88,
+        "score": 27411,
+        "coins": 258,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 7,
+        "overdriveCount": 1,
+        "upgrades": [
+          "breeze",
           "edge",
           "tempo",
-          "shield",
+          "stride",
           "edge",
-          "thirdStar",
-          "afterimage"
+          "tempo",
+          "bell"
         ],
         "synergies": [
           "blazing"
@@ -74,31 +169,32 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_1syi2h0_1eublxe",
-      "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
-      "name": "星际旅人",
-      "createdAt": "2026-11-21T05:13:16.153Z",
+      "runId": "run_7trxtp_1qnd2d",
+      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
+      "name": "lee",
+      "createdAt": "2026-11-25T13:37:19.912Z",
       "result": {
-        "seed": 2891238137,
+        "seed": 2958348613,
         "modifier": "standard",
-        "weapon": "blade",
+        "weapon": "fan",
+        "character": "wheel",
         "won": true,
-        "time": 111.2,
-        "score": 27885,
-        "coins": 287,
+        "time": 116.05,
+        "score": 28647,
+        "coins": 319,
         "kills": 35,
         "level": 7,
         "deaths": 0,
         "roomsCleared": 8,
-        "maxCombo": 6,
-        "overdriveCount": 3,
+        "maxCombo": 9,
+        "overdriveCount": 2,
         "upgrades": [
-          "multishot",
-          "multishot",
-          "frost",
+          "jadeSpring",
           "edge",
-          "breeze",
-          "tempo"
+          "tempo",
+          "shield",
+          "edge",
+          "thirdStar"
         ],
         "synergies": [
           "blazing"
@@ -135,42 +231,6 @@
           "edge"
         ],
         "synergies": [
-          "fireflies",
-          "guardian"
-        ]
-      }
-    },
-    {
-      "version": "starhop-v3",
-      "runId": "run_2yeegu_rx7bc8",
-      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
-      "name": "lee",
-      "createdAt": "2026-11-23T13:47:42.454Z",
-      "result": {
-        "seed": 2857682899,
-        "modifier": "standard",
-        "weapon": "blade",
-        "won": true,
-        "time": 137.53,
-        "score": 30450,
-        "coins": 398,
-        "kills": 35,
-        "level": 8,
-        "deaths": 0,
-        "roomsCleared": 8,
-        "maxCombo": 6,
-        "overdriveCount": 2,
-        "upgrades": [
-          "edge",
-          "multishot",
-          "edge",
-          "tempo",
-          "magnet",
-          "blood",
-          "vigor"
-        ],
-        "synergies": [
-          "blazing",
           "fireflies",
           "guardian"
         ]
@@ -246,40 +306,6 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_oo2owj_15nahmr",
-      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
-      "name": "星际旅人",
-      "createdAt": "2026-11-17T14:29:41.319Z",
-      "result": {
-        "seed": 3193088184,
-        "modifier": "standard",
-        "weapon": "blade",
-        "won": true,
-        "time": 206.32,
-        "score": 28949,
-        "coins": 360,
-        "kills": 35,
-        "level": 8,
-        "deaths": 0,
-        "roomsCleared": 8,
-        "maxCombo": 5,
-        "overdriveCount": 3,
-        "upgrades": [
-          "multishot",
-          "blood",
-          "tempo",
-          "vigor",
-          "stride",
-          "multishot",
-          "vigor"
-        ],
-        "synergies": [
-          "guardian"
-        ]
-      }
-    },
-    {
-      "version": "starhop-v3",
       "runId": "run_12420ka_1dq3j2g",
       "playerId": "player_5c2ead91284a4c72981101f6a76884a5",
       "name": "星际旅人",
@@ -310,6 +336,76 @@
         "synergies": [
           "fireflies",
           "guardian"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_rqephd_4r0k1p",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:04:03.418Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "haste",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 54.97,
+        "score": 27110,
+        "coins": 238,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 18,
+        "overdriveCount": 6,
+        "upgrades": [
+          "jadeSpring",
+          "edge",
+          "tempo",
+          "stride",
+          "edge",
+          "tempo",
+          "bell"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_uqi1i8_c88hj6",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:20:24.182Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "iron",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 66.93,
+        "score": 27340,
+        "coins": 251,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 34,
+        "overdriveCount": 7,
+        "upgrades": [
+          "thirdStar",
+          "thirdStar",
+          "shield",
+          "stride",
+          "thirdStar",
+          "edge",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing"
         ]
       }
     }
@@ -526,7 +622,7 @@
       "version": "starhop-v3",
       "runId": "run_oo2owj_15nahmr",
       "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
-      "name": "星际旅人",
+      "name": "俞宗祺大魔王",
       "createdAt": "2026-11-17T14:29:41.319Z",
       "result": {
         "seed": 3193088184,
@@ -593,33 +689,195 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_56nfwn_1gg1ii3",
+      "runId": "run_13h5nhp_gpmul9",
       "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
-      "name": "星际旅人",
-      "createdAt": "2026-11-25T13:24:15.671Z",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:06:38.371Z",
       "result": {
         "seed": 2958348613,
         "modifier": "standard",
         "weapon": "ember",
         "character": "staff",
         "won": true,
-        "time": 83.23,
-        "score": 27909,
-        "coins": 287,
+        "time": 56.43,
+        "score": 27224,
+        "coins": 243,
         "kills": 35,
         "level": 8,
-        "deaths": 1,
+        "deaths": 0,
         "roomsCleared": 8,
-        "maxCombo": 32,
-        "overdriveCount": 2,
+        "maxCombo": 31,
+        "overdriveCount": 6,
+        "upgrades": [
+          "stride",
+          "multishot",
+          "thirdStar",
+          "gildedSwitch",
+          "stride",
+          "edge",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_422b78_74a04e4",
+      "playerId": "player_2ac13eb443d441348ffa639189276962",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-25T14:09:24.340Z",
+      "result": {
+        "seed": 3585812615,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 0.01,
+        "score": 120,
+        "coins": 0,
+        "kills": 1,
+        "level": 1,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 0,
+        "overdriveCount": 0,
+        "upgrades": [],
+        "synergies": []
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_w5560r_l32tfj",
+      "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
+      "name": "星际旅人",
+      "createdAt": "2026-11-25T14:26:30.478Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "silkFan",
+        "character": "wheel",
+        "won": true,
+        "time": 55.03,
+        "score": 37635,
+        "coins": 659,
+        "kills": 35,
+        "level": 7,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 25,
+        "overdriveCount": 6,
+        "upgrades": [
+          "fortune",
+          "edge",
+          "tempo",
+          "stride",
+          "magnet",
+          "multishot"
+        ],
+        "synergies": [
+          "blazing",
+          "fireflies"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_wg21b5_gy7nux",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:15:37.064Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 71.22,
+        "score": 27105,
+        "coins": 243,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 15,
+        "overdriveCount": 8,
         "upgrades": [
           "bell",
+          "jadeParry",
+          "gildedSwitch",
+          "stride",
+          "thirdStar",
+          "landingSeal",
+          "tempo"
+        ],
+        "synergies": []
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_3smi3n_aant0j",
+      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-25T13:47:10.774Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 79.88,
+        "score": 27411,
+        "coins": 258,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 7,
+        "overdriveCount": 1,
+        "upgrades": [
+          "breeze",
+          "edge",
+          "tempo",
+          "stride",
+          "edge",
+          "tempo",
+          "bell"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_7trxtp_1qnd2d",
+      "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
+      "name": "lee",
+      "createdAt": "2026-11-25T13:37:19.912Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 116.05,
+        "score": 28647,
+        "coins": 319,
+        "kills": 35,
+        "level": 7,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 9,
+        "overdriveCount": 2,
+        "upgrades": [
+          "jadeSpring",
           "edge",
           "tempo",
           "shield",
           "edge",
-          "thirdStar",
-          "afterimage"
+          "thirdStar"
         ],
         "synergies": [
           "blazing"
@@ -630,7 +888,7 @@
       "version": "starhop-v3",
       "runId": "run_1wg05ut_e9yspx",
       "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
-      "name": "星际旅人",
+      "name": "何嘉源",
       "createdAt": "2026-11-25T13:27:30.550Z",
       "result": {
         "seed": 2958348613,
@@ -663,33 +921,128 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_1ioqwum_14ts3c",
+      "runId": "run_7a2fb6_89f2274",
+      "playerId": "player_2ac13eb443d441348ffa639189276962",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-25T14:09:20.000Z",
+      "result": {
+        "seed": 2618093334,
+        "modifier": "standard",
+        "weapon": "fist",
+        "character": "monk",
+        "won": true,
+        "time": 0.01,
+        "score": 140,
+        "coins": 0,
+        "kills": 1,
+        "level": 1,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 0,
+        "overdriveCount": 0,
+        "upgrades": [],
+        "synergies": []
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_i7lgb6_1rppj80",
       "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
-      "name": "星际旅人",
-      "createdAt": "2026-11-25T13:19:28.916Z",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T13:31:20.077Z",
       "result": {
         "seed": 2958348613,
         "modifier": "standard",
         "weapon": "fist",
         "character": "monk",
         "won": true,
-        "time": 137.47,
-        "score": 28875,
-        "coins": 335,
+        "time": 84.82,
+        "score": 27746,
+        "coins": 273,
         "kills": 35,
         "level": 8,
         "deaths": 0,
         "roomsCleared": 8,
-        "maxCombo": 8,
-        "overdriveCount": 6,
+        "maxCombo": 26,
+        "overdriveCount": 7,
         "upgrades": [
           "bell",
           "edge",
           "tempo",
           "shield",
           "edge",
+          "tempo",
+          "bell"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_rqephd_4r0k1p",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:04:03.418Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "haste",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 54.97,
+        "score": 27110,
+        "coins": 238,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 18,
+        "overdriveCount": 6,
+        "upgrades": [
+          "jadeSpring",
+          "edge",
+          "tempo",
+          "stride",
+          "edge",
+          "tempo",
+          "bell"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_uqi1i8_c88hj6",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "createdAt": "2026-11-25T14:20:24.182Z",
+      "result": {
+        "seed": 2958348613,
+        "modifier": "iron",
+        "weapon": "ember",
+        "character": "staff",
+        "won": true,
+        "time": 66.93,
+        "score": 27340,
+        "coins": 251,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 34,
+        "overdriveCount": 7,
+        "upgrades": [
           "thirdStar",
-          "afterimage"
+          "thirdStar",
+          "shield",
+          "stride",
+          "thirdStar",
+          "edge",
+          "tempo"
         ],
         "synergies": [
           "blazing"
@@ -699,6 +1052,27 @@
   ],
   "legacyRecords": [],
   "profiles": [
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_2ac13eb443d441348ffa639189276962",
+      "name": "俞宗祺大魔王",
+      "updatedAt": "2026-11-25T14:12:32.186Z"
+    },
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
+      "name": "俞宗祺大魔王",
+      "updatedAt": "2026-11-25T20:13:02.201Z"
+    },
+    {
+      "version": "starhop-v3",
+      "type": "profile",
+      "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
+      "name": "何嘉源",
+      "updatedAt": "2026-11-25T14:11:35.628Z"
+    },
     {
       "version": "starhop-v3",
       "type": "profile",
