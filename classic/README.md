@@ -1,8 +1,14 @@
-# 星跃远征 v5.2.11 · 玄阙同征
+# 星跃远征 v5.2.12 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.11) · [下载离线版 v5.2.11](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.11.zip) · [下载源码 v5.2.11](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.11.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.12) · [下载离线版 v5.2.12](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.12.zip) · [下载源码 v5.2.12](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.12.zip)
+
+## v5.2.12 联机同步与随机强化
+
+合作直连把战斗画面放在独立通道，按键与房间操作继续可靠传输。遇到抖动时，客人可以接收后续画面并跳过过时的快照。缩减战斗快照体积，延长客人的本地动作预测。竞速双方进入战斗后，直连线路提高幽灵的更新频率。
+
+每局重新抽取强化。单人同图重开也会重抽，合作队员各自抽取和选择。竞速双方共享当局强化种子，下一场再刷新。
 
 ## v5.2.11 远征规则与青翎
 
