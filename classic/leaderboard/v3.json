@@ -1,32 +1,7 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-25T22:43:50.477Z",
+  "updatedAt": "2026-11-26T04:16:15.041Z",
   "records": [
-    {
-      "version": "starhop-v3",
-      "runId": "run_7a2fb6_89f2274",
-      "playerId": "player_2ac13eb443d441348ffa639189276962",
-      "name": "俞宗祺大魔王",
-      "createdAt": "2026-11-25T14:09:20.000Z",
-      "result": {
-        "seed": 2618093334,
-        "modifier": "standard",
-        "weapon": "fist",
-        "character": "monk",
-        "won": true,
-        "time": 0.01,
-        "score": 140,
-        "coins": 0,
-        "kills": 1,
-        "level": 1,
-        "deaths": 0,
-        "roomsCleared": 8,
-        "maxCombo": 0,
-        "overdriveCount": 0,
-        "upgrades": [],
-        "synergies": []
-      }
-    },
     {
       "version": "starhop-v3",
       "runId": "run_w5560r_l32tfj",
@@ -724,31 +699,6 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_422b78_74a04e4",
-      "playerId": "player_2ac13eb443d441348ffa639189276962",
-      "name": "俞宗祺大魔王",
-      "createdAt": "2026-11-25T14:09:24.340Z",
-      "result": {
-        "seed": 3585812615,
-        "modifier": "standard",
-        "weapon": "fan",
-        "character": "wheel",
-        "won": true,
-        "time": 0.01,
-        "score": 120,
-        "coins": 0,
-        "kills": 1,
-        "level": 1,
-        "deaths": 0,
-        "roomsCleared": 8,
-        "maxCombo": 0,
-        "overdriveCount": 0,
-        "upgrades": [],
-        "synergies": []
-      }
-    },
-    {
-      "version": "starhop-v3",
       "runId": "run_w5560r_l32tfj",
       "playerId": "player_33d1a1856fb64a65899fb3b397795bd1",
       "name": "星际旅人",
@@ -917,31 +867,6 @@
         "synergies": [
           "blazing"
         ]
-      }
-    },
-    {
-      "version": "starhop-v3",
-      "runId": "run_7a2fb6_89f2274",
-      "playerId": "player_2ac13eb443d441348ffa639189276962",
-      "name": "俞宗祺大魔王",
-      "createdAt": "2026-11-25T14:09:20.000Z",
-      "result": {
-        "seed": 2618093334,
-        "modifier": "standard",
-        "weapon": "fist",
-        "character": "monk",
-        "won": true,
-        "time": 0.01,
-        "score": 140,
-        "coins": 0,
-        "kills": 1,
-        "level": 1,
-        "deaths": 0,
-        "roomsCleared": 8,
-        "maxCombo": 0,
-        "overdriveCount": 0,
-        "upgrades": [],
-        "synergies": []
       }
     },
     {

@@ -34,6 +34,7 @@ var LEADERBOARD_VERSION = "starhop-v3";
 var LEGACY_VERSION = "starhop-v2";
 var REQUIRED_ROOMS = EXPEDITION_ROOM_COUNT;
 var MODIFIER_IDS = ["standard", "moon", "haste", "iron"];
+var WITHDRAWN_RUN_IDS = /* @__PURE__ */ new Set(["run_7a2fb6_89f2274", "run_422b78_74a04e4"]);
 function sanitizeName(name) {
   return Array.from(name.normalize("NFC").replace(/[\u0000-\u001f\u007f-\u009f\u202a-\u202e\u2066-\u2069<>&"'`]/g, "").replace(/\s+/g, " ").trim()).slice(0, 12).join("") || "\u661F\u9645\u65C5\u4EBA";
 }
@@ -52,6 +53,7 @@ function date(value) {
 function validateScore(value, version) {
   const v = object(value);
   if (!v || v.version !== version || typeof v.runId !== "string" || !/^[a-zA-Z0-9_-]{8,100}$/.test(v.runId) || typeof v.playerId !== "string" || !/^[a-zA-Z0-9_-]{8,100}$/.test(v.playerId) || typeof v.name !== "string" || v.name.length > 100 || !date(v.createdAt)) return null;
+  if (version === LEADERBOARD_VERSION && WITHDRAWN_RUN_IDS.has(v.runId)) return null;
   const r = object(v.result);
   const loadout = r && readRunLoadout(r.weapon, r.character);
   if (!r || !loadout || version === LEGACY_VERSION && loadout.character || r.won !== true || r.roomsCleared !== (version === LEADERBOARD_VERSION ? REQUIRED_ROOMS : 4) || !MODIFIER_IDS.includes(r.modifier) || !number(r.seed, 0, 4294967295) || !number(r.time, 0.01, 86400, false) || !number(r.score, 0, 1e8) || !number(r.coins, 0, 1e6) || !number(r.kills, 1, 1e5) || !number(r.level, 1, 1e4) || !number(r.deaths, 0, 1e5) || !number(r.maxCombo, 0, 1e5) || !number(r.overdriveCount, 0, 1e5) || !ids(r.upgrades, 100) || !ids(r.synergies, 32)) return null;
