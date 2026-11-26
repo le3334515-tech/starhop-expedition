@@ -1,6 +1,6 @@
 {
   "version": "starhop-v3",
-  "updatedAt": "2026-11-26T04:16:15.041Z",
+  "updatedAt": "2026-11-26T15:45:13.855Z",
   "records": [
     {
       "version": "starhop-v3",
@@ -109,36 +109,35 @@
     },
     {
       "version": "starhop-v3",
-      "runId": "run_i45ejy_suhg38",
+      "runId": "run_yszq0h_ctvi6h",
       "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
       "name": "lyf",
-      "createdAt": "2026-11-17T13:42:00.279Z",
+      "createdAt": "2026-11-26T07:49:02.626Z",
       "result": {
-        "seed": 3193088184,
+        "seed": 2908015756,
         "modifier": "standard",
-        "weapon": "blade",
+        "weapon": "fan",
+        "character": "wheel",
         "won": true,
-        "time": 107.05,
-        "score": 28219,
-        "coins": 299,
+        "time": 91.63,
+        "score": 26817,
+        "coins": 238,
         "kills": 35,
-        "level": 8,
+        "level": 7,
         "deaths": 0,
         "roomsCleared": 8,
-        "maxCombo": 8,
-        "overdriveCount": 2,
+        "maxCombo": 15,
+        "overdriveCount": 5,
         "upgrades": [
-          "vigor",
-          "stride",
-          "tempo",
-          "vigor",
-          "stride",
           "edge",
-          "blood"
+          "thirdStar",
+          "breeze",
+          "tempo",
+          "multishot",
+          "edge"
         ],
         "synergies": [
-          "blazing",
-          "guardian"
+          "blazing"
         ]
       }
     },
@@ -664,6 +663,42 @@
     },
     {
       "version": "starhop-v3",
+      "runId": "run_nhie6f_j4vomr",
+      "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
+      "name": "lyf",
+      "createdAt": "2026-11-26T07:52:14.871Z",
+      "result": {
+        "seed": 2908015756,
+        "modifier": "standard",
+        "weapon": "blade",
+        "character": "blade",
+        "won": true,
+        "time": 99.2,
+        "score": 29706,
+        "coins": 356,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 20,
+        "overdriveCount": 6,
+        "upgrades": [
+          "multishot",
+          "magnet",
+          "frost",
+          "bell",
+          "stride",
+          "edge",
+          "tempo"
+        ],
+        "synergies": [
+          "blazing",
+          "fireflies"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
       "runId": "run_13h5nhp_gpmul9",
       "playerId": "player_e924c7d4bfa749a5a059530b0fe523de",
       "name": "何嘉源",
@@ -802,6 +837,40 @@
     },
     {
       "version": "starhop-v3",
+      "runId": "run_yszq0h_ctvi6h",
+      "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
+      "name": "lyf",
+      "createdAt": "2026-11-26T07:49:02.626Z",
+      "result": {
+        "seed": 2908015756,
+        "modifier": "standard",
+        "weapon": "fan",
+        "character": "wheel",
+        "won": true,
+        "time": 91.63,
+        "score": 26817,
+        "coins": 238,
+        "kills": 35,
+        "level": 7,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 15,
+        "overdriveCount": 5,
+        "upgrades": [
+          "edge",
+          "thirdStar",
+          "breeze",
+          "tempo",
+          "multishot",
+          "edge"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
       "runId": "run_7trxtp_1qnd2d",
       "playerId": "player_6fe3c5f081a2473eaa5a9bcfc1494144",
       "name": "lee",
@@ -828,6 +897,41 @@
           "shield",
           "edge",
           "thirdStar"
+        ],
+        "synergies": [
+          "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_euh0ly_813b4",
+      "playerId": "player_6e74169a7b46492b9115d8a2031decf5",
+      "name": "俞宗祺大魔王",
+      "createdAt": "2026-11-26T08:04:26.411Z",
+      "result": {
+        "seed": 2908015756,
+        "modifier": "standard",
+        "weapon": "spear",
+        "character": "spear",
+        "won": true,
+        "time": 107.37,
+        "score": 27516,
+        "coins": 271,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 7,
+        "overdriveCount": 5,
+        "upgrades": [
+          "thirdStar",
+          "tempo",
+          "edge",
+          "vigor",
+          "bell",
+          "stride",
+          "edge"
         ],
         "synergies": [
           "blazing"
@@ -866,6 +970,42 @@
         ],
         "synergies": [
           "blazing"
+        ]
+      }
+    },
+    {
+      "version": "starhop-v3",
+      "runId": "run_1abmsn0_1x8nkg6",
+      "playerId": "player_a62a020dfb3b4944be20c87b3ec64e87",
+      "name": "lyf",
+      "createdAt": "2026-11-26T06:45:57.465Z",
+      "result": {
+        "seed": 2908015756,
+        "modifier": "standard",
+        "weapon": "spear",
+        "character": "spear",
+        "won": true,
+        "time": 190.02,
+        "score": 27130,
+        "coins": 282,
+        "kills": 35,
+        "level": 8,
+        "deaths": 0,
+        "roomsCleared": 8,
+        "maxCombo": 10,
+        "overdriveCount": 5,
+        "upgrades": [
+          "stride",
+          "blood",
+          "vigor",
+          "landingSeal",
+          "tempo",
+          "edge",
+          "shield"
+        ],
+        "synergies": [
+          "blazing",
+          "guardian"
         ]
       }
     },
