@@ -1,8 +1,16 @@
-# 星跃远征 v5.2.15 · 玄阙同征
+# 星跃远征 v5.2.16 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.15) · [下载离线版 v5.2.15](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.15.zip) · [下载源码 v5.2.15](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.15.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.16) · [下载离线版 v5.2.16](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.16.zip) · [下载源码 v5.2.16](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.16.zip)
+
+## v5.2.16 四人合作、战斗平衡与青翎兵器
+
+四人合作时，移动和敌人状态继续按原频率发送，弹幕和特效的完整画面分批补齐。切关、清场和 Boss 变身会立即更新完整画面，减少激烈战斗中房主上传吃紧造成的卡顿。
+
+六位旅人的觉醒攻击伤害比上一版低 20%，保留 6 秒无敌。余烬守卫和玄阙镇星王的第一管生命提高 80%，合作第十一关玄甲重卫和赤刃刑武的生命翻倍，仍随队伍人数增加。
+
+青翎的翠翎针重绘为青玉长针与铜箍短穗，裁风翎刃重绘为一对窄身羽刃。武器栏图标、手持动作、投掷轨迹和命中特效同步换成同一套像素美术。
 
 ## v5.2.15 四人合作性能
 
