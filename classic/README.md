@@ -1,8 +1,12 @@
-# 星跃远征 v5.2.16 · 玄阙同征
+# 星跃远征 v5.2.17 · 玄阙同征
 
 基于用户提供的《星跃远征 v4.1》制作的像素武侠动作游戏，包含八境单人远征、双人在线竞速和十二境合作远征。
 
-[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.16) · [下载离线版 v5.2.16](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.16.zip) · [下载源码 v5.2.16](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.16.zip)
+[在线开始远征](https://le3334515-tech.github.io/starhop-expedition/classic/?v=5.2.17) · [下载离线版 v5.2.17](https://le3334515-tech.github.io/starhop-expedition/classic/offline-v5.2.17.zip) · [下载源码 v5.2.17](https://le3334515-tech.github.io/starhop-expedition/classic/source-v5.2.17.zip)
+
+## v5.2.17 弱网移动
+
+队员收到迟到的位置更新时，同一场战斗内的大幅移动偏差会逐帧校正。切关和复活按实际位置直接显示。
 
 ## v5.2.16 四人合作、战斗平衡与青翎兵器
 
